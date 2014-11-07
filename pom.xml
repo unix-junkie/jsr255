@@ -70,6 +70,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<emacsMode>true</emacsMode>
 		<javadoc.plugin.version>2.9.1</javadoc.plugin.version>
 	</properties>
@@ -123,6 +124,19 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>${javadoc.plugin.version}</version>
+				<configuration>
+					<javadocVersion>1.6</javadocVersion>
+					<bottom><![CDATA[<font size="-1">Copyright 2007 Sun Microsystems, Inc. All rights reserved. Use is subject to license terms.</font>]]></bottom>
+					<doctitle><![CDATA[<h2>JSR 255 - Java<sup><font size="-2">TM</font></sup> Management Extensions (JMX<sup><font size="-2">TM</font></sup>)<br> API Specification 2.0<br> EARLY DRAFT REVIEW (December 2007)</h2>]]></doctitle>
+					<footer><![CDATA[<b>JMX API Specification 2.0<br> EARLY DRAFT REVIEW (December 2007)</b>]]></footer>
+					<windowtitle>JSR 255 - JMX API 2.0 Specification - Early Draft Review</windowtitle>
+					<javaApiLinks>
+						<property>
+							<name>api_1.6</name>
+							<value>http://java.sun.com/javase/6/docs/api/</value>
+						</property>
+					</javaApiLinks>
+				</configuration>
 				<executions>
 					<execution>
 						<id>attach-javadocs</id>
