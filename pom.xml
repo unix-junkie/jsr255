@@ -8,7 +8,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.unix-junkie</groupId>
 	<artifactId>jsr255</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
@@ -17,7 +17,7 @@
 	</parent>
 
 	<name>JSR 255 - JMX API 2.0 Specification - Early Draft Review</name>
-	<description>JSR 255 - Java&#8482; Management Extensions (JMX&#8482;) API Specification 2.0 EARLY DRAFT REVIEW (December 2007)</description>
+	<description>JSR 255 - Java™ Management Extensions (JMX™) API Specification 2.0 EARLY DRAFT REVIEW (December 2007)</description>
 	<url>https://unix-junkie.github.io/jsr255/</url>
 	<organization>
 		<name>Sun Microsystems, Inc</name>
@@ -37,7 +37,7 @@
 		<url>https://github.com/unix-junkie/jsr255</url>
 		<connection>scm:git:git@github.com:unix-junkie/jsr255.git</connection>
 		<developerConnection>scm:git:git@github.com:unix-junkie/jsr255.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>jsr255-0.0.1</tag>
 	</scm>
 
 	<issueManagement>
